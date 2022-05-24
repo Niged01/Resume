@@ -1,7 +1,30 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
+/*-------Colours-----*/
+.bg-color-name-title {
+    background-color: #ae6a45;
+}
+
+.ui-menu-color-home {
+    background-color: #8d3f25;
+}
+.ui-menu-color-resume {
+    background-color: #a77c6e;
+}
+.ui-menu-color-contact {
+    background-color: #df9d79;
+}
+.ui-menu-color-download {
+    background-color: #ddc9ba;
+}
+
+/*-------Heading-----*/
 header {
     margin: 0;
+}
+
+.heading {
+    margin-left: 50px;
 }
 
 .logo {
@@ -9,8 +32,38 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 36px;
+    min-height: 360px;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
+}
+
+.name {
+    font-family: "Exo" , sans-serif;
+    font-weight: 100;
+    font-size: 46px;
+    margin-top: 50px;   
+    color: #f8f2e8;
+}
+
+.title {
+    font-family: "Roboto" , sans-serif;
+    font-weight: 200;
+    font-size: 28px;
+    margin-top: 20px;
+    margin-bottom: 90px;
+    color: #f8f2e8;
+}
+
+.list-inline-item:not(:last-child) {
+    margin: 0%;
+}
+
+.menucontainer {
+    font-size: 0;
+}
+
+#nav li {
+    font-size: 14px;
+    padding: 0;
 }
